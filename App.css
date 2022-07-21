@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+background-image:url("C:\Users\rahul singh\Desktop\abstract-square-shapes-green-background-abstract-square-shapes-green-background-vector-illustration-135845927.jpg");
+background-repeat: no-repeat;
+background-size: 2000px 1200px;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: red;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: red;
+}
+
+::placeholder {
+  color:black;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type='date']{
+  width: 260px;
+} 
+input[type='number']{
+  width: 260px;
+} 
+input[type='text']{
+  width: 260px;
+  text-transform: uppercase;
+  
+} 
